@@ -13,6 +13,6 @@ void app_main(void)
     {
         init_gps_uart();
         read_gps_uart();
-        read_gps_uart();
+        save_gps_uart();
     }
 }
